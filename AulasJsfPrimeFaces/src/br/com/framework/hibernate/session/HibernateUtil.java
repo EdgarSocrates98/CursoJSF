@@ -52,7 +52,7 @@ public class HibernateUtil implements Serializable{
 	 * Retorna o SessionFactory corretamente
 	 * @return SessionFactory
 	 */
-	private static SessionFactory getSessionFactory(){
+	public static SessionFactory getSessionFactory(){
 		return sessionFactory;
 	}
 	
